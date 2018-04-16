@@ -1,0 +1,317 @@
+
+Gurobi 7.5.1 (win64, Python) logging started 10/23/17 15:02:54
+
+Academic license - for non-commercial use only
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter TimeLimit to 600.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Warning: variable name "x_DC 11_4169280" has a space
+Warning: constraint name "Supply_DC 11" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 4895 rows, 78064 columns and 156128 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+Coefficient statistics:
+  Matrix range     [3e+02, 2e+03]
+  Objective range  [3e+00, 7e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e+02, 3e+05]
+Found heuristic solution: objective 589353
+Presolve time: 0.33s
+Presolved: 4895 rows, 78064 columns, 156128 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+
+Root relaxation: objective 8.676452e+04, 5646 iterations, 0.45 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 86764.5200    0   18 589353.160 86764.5200  85.3%     -    1s
+H    0     0                    86819.880000 86764.5200  0.06%     -    1s
+H    0     0                    86771.280000 86764.5200  0.01%     -    2s
+
+Explored 1 nodes (5997 simplex iterations) in 2.18 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 86771.3 86819.9 589353 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.677128000000e+04, best bound 8.676452000000e+04, gap 0.0078%
+Optimize a model with 54 rows, 646 columns and 1216 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+05, 3e+05]
+  Objective range  [8e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [6e+04, 7e+05]
+Found heuristic solution: objective 2.02642e+06
+Presolve removed 1 rows and 66 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 580 columns, 1160 nonzeros
+Variable types: 0 continuous, 580 integer (580 binary)
+
+Root relaxation: objective 1.949222e+06, 35 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1949222.20    0   12 2026424.87 1949222.20  3.81%     -    0s
+H    0     0                    1961127.0400 1949222.20  0.61%     -    0s
+H    0     0                    1958392.3200 1949222.20  0.47%     -    0s
+H    0     0                    1952009.8100 1949222.20  0.14%     -    0s
+H    0     0                    1950838.7100 1949222.20  0.08%     -    0s
+     0     0 1950082.32    0   15 1950838.71 1950082.32  0.04%     -    0s
+     0     0 1950082.32    0   10 1950838.71 1950082.32  0.04%     -    0s
+     0     0 1950389.51    0    4 1950838.71 1950389.51  0.02%     -    0s
+     0     0 1950389.51    0    5 1950838.71 1950389.51  0.02%     -    0s
+H    0     0                    1950613.4300 1950389.51  0.01%     -    0s
+     0     0     cutoff    0      1950613.43 1950613.43  0.00%     -    0s
+
+Cutting planes:
+  Cover: 2
+
+Explored 1 nodes (117 simplex iterations) in 0.08 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 1.95061e+06 1.95084e+06 1.95201e+06 ... 2.02642e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.950613430000e+06, best bound 1.950613430000e+06, gap 0.0000%
+Warning: variable name "x_Ardent1_DC 6" has a space
+Warning: constraint name "Demand_DC 11" has a space
+Warning: to let Gurobi read it back, use rlp format
+
+Gurobi 7.5.1 (win64, Python) logging started 10/23/17 15:05:23
+
+Academic license - for non-commercial use only
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter TimeLimit to 600.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Warning: variable name "x_DC 11_4169280" has a space
+Warning: constraint name "Supply_DC 11" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 4895 rows, 78064 columns and 156128 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+Coefficient statistics:
+  Matrix range     [3e+02, 2e+03]
+  Objective range  [3e+00, 7e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e+02, 3e+05]
+Found heuristic solution: objective 589353
+Presolve time: 0.33s
+Presolved: 4895 rows, 78064 columns, 156128 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+
+Root relaxation: objective 8.676452e+04, 5646 iterations, 0.40 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 86764.5200    0   18 589353.160 86764.5200  85.3%     -    0s
+H    0     0                    86819.880000 86764.5200  0.06%     -    1s
+H    0     0                    86771.280000 86764.5200  0.01%     -    2s
+
+Explored 1 nodes (5997 simplex iterations) in 2.20 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 86771.3 86819.9 589353 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.677128000000e+04, best bound 8.676452000000e+04, gap 0.0078%
+Optimize a model with 54 rows, 646 columns and 1216 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+05, 3e+05]
+  Objective range  [8e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [6e+04, 7e+05]
+Found heuristic solution: objective 2.02642e+06
+Presolve removed 1 rows and 66 columns
+Presolve time: 0.02s
+Presolved: 53 rows, 580 columns, 1160 nonzeros
+Variable types: 0 continuous, 580 integer (580 binary)
+
+Root relaxation: objective 1.949222e+06, 35 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1949222.20    0   12 2026424.87 1949222.20  3.81%     -    0s
+H    0     0                    1961127.0400 1949222.20  0.61%     -    0s
+H    0     0                    1958392.3200 1949222.20  0.47%     -    0s
+H    0     0                    1952009.8100 1949222.20  0.14%     -    0s
+H    0     0                    1950838.7100 1949222.20  0.08%     -    0s
+     0     0 1950082.32    0   15 1950838.71 1950082.32  0.04%     -    0s
+     0     0 1950082.32    0   10 1950838.71 1950082.32  0.04%     -    0s
+     0     0 1950389.51    0    4 1950838.71 1950389.51  0.02%     -    0s
+     0     0 1950389.51    0    5 1950838.71 1950389.51  0.02%     -    0s
+H    0     0                    1950613.4300 1950389.51  0.01%     -    0s
+     0     0     cutoff    0      1950613.43 1950613.43  0.00%     -    0s
+
+Cutting planes:
+  Cover: 2
+
+Explored 1 nodes (117 simplex iterations) in 0.16 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 1.95061e+06 1.95084e+06 1.95201e+06 ... 2.02642e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.950613430000e+06, best bound 1.950613430000e+06, gap 0.0000%
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter TimeLimit to 600.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Warning: variable name "x_DC 11_4169280" has a space
+Warning: constraint name "Supply_DC 11" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 4895 rows, 78064 columns and 156128 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+Coefficient statistics:
+  Matrix range     [3e+02, 2e+03]
+  Objective range  [3e+00, 7e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e+02, 3e+05]
+Found heuristic solution: objective 589353
+Presolve time: 0.34s
+Presolved: 4895 rows, 78064 columns, 156128 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+
+Root relaxation: objective 8.676452e+04, 5646 iterations, 0.41 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 86764.5200    0   18 589353.160 86764.5200  85.3%     -    1s
+H    0     0                    86819.880000 86764.5200  0.06%     -    1s
+H    0     0                    86771.280000 86764.5200  0.01%     -    2s
+
+Explored 1 nodes (5997 simplex iterations) in 2.21 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 86771.3 86819.9 589353 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.677128000000e+04, best bound 8.676452000000e+04, gap 0.0078%
+Optimize a model with 54 rows, 646 columns and 1216 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+05, 3e+05]
+  Objective range  [8e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [6e+04, 7e+05]
+Found heuristic solution: objective 2.02642e+06
+Presolve removed 1 rows and 66 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 580 columns, 1160 nonzeros
+Variable types: 0 continuous, 580 integer (580 binary)
+
+Root relaxation: objective 1.949222e+06, 35 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1949222.20    0   12 2026424.87 1949222.20  3.81%     -    0s
+H    0     0                    1961127.0400 1949222.20  0.61%     -    0s
+H    0     0                    1958392.3200 1949222.20  0.47%     -    0s
+H    0     0                    1952009.8100 1949222.20  0.14%     -    0s
+H    0     0                    1950838.7100 1949222.20  0.08%     -    0s
+     0     0 1950082.32    0   15 1950838.71 1950082.32  0.04%     -    0s
+     0     0 1950082.32    0   10 1950838.71 1950082.32  0.04%     -    0s
+     0     0 1950389.51    0    4 1950838.71 1950389.51  0.02%     -    0s
+     0     0 1950389.51    0    5 1950838.71 1950389.51  0.02%     -    0s
+H    0     0                    1950613.4300 1950389.51  0.01%     -    0s
+     0     0     cutoff    0      1950613.43 1950613.43  0.00%     -    0s
+
+Cutting planes:
+  Cover: 2
+
+Explored 1 nodes (117 simplex iterations) in 0.14 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 1.95061e+06 1.95084e+06 1.95201e+06 ... 2.02642e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.950613430000e+06, best bound 1.950613430000e+06, gap 0.0000%
+Warning: variable name "x_Ardent1_DC 6" has a space
+Warning: constraint name "Demand_DC 11" has a space
+Warning: to let Gurobi read it back, use rlp format
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter TimeLimit to 600.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Warning: variable name "x_DC 11_4169280" has a space
+Warning: constraint name "Supply_DC 11" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 4895 rows, 78064 columns and 156128 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+Coefficient statistics:
+  Matrix range     [3e+02, 2e+03]
+  Objective range  [3e+00, 7e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e+02, 3e+05]
+Found heuristic solution: objective 589353
+Presolve time: 0.39s
+Presolved: 4895 rows, 78064 columns, 156128 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+
+Root relaxation: objective 8.676452e+04, 5646 iterations, 0.43 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 86764.5200    0   18 589353.160 86764.5200  85.3%     -    1s
+H    0     0                    86819.880000 86764.5200  0.06%     -    2s
+H    0     0                    86771.280000 86764.5200  0.01%     -    2s
+
+Explored 1 nodes (5997 simplex iterations) in 2.36 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 86771.3 86819.9 589353 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.677128000000e+04, best bound 8.676452000000e+04, gap 0.0078%
+Optimize a model with 54 rows, 646 columns and 1216 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+05, 3e+05]
+  Objective range  [8e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [6e+04, 7e+05]
+Found heuristic solution: objective 2.02642e+06
+Presolve removed 1 rows and 66 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 580 columns, 1160 nonzeros
+Variable types: 0 continuous, 580 integer (580 binary)
+
+Root relaxation: objective 1.949222e+06, 35 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1949222.20    0   12 2026424.87 1949222.20  3.81%     -    0s
+H    0     0                    1961127.0400 1949222.20  0.61%     -    0s
+H    0     0                    1958392.3200 1949222.20  0.47%     -    0s
+H    0     0                    1952009.8100 1949222.20  0.14%     -    0s
+H    0     0                    1950838.7100 1949222.20  0.08%     -    0s
+     0     0 1950082.32    0   15 1950838.71 1950082.32  0.04%     -    0s
+     0     0 1950082.32    0   10 1950838.71 1950082.32  0.04%     -    0s
+     0     0 1950389.51    0    4 1950838.71 1950389.51  0.02%     -    0s
+     0     0 1950389.51    0    5 1950838.71 1950389.51  0.02%     -    0s
+H    0     0                    1950613.4300 1950389.51  0.01%     -    0s
+     0     0     cutoff    0      1950613.43 1950613.43  0.00%     -    0s
+
+Cutting planes:
+  Cover: 2
+
+Explored 1 nodes (117 simplex iterations) in 0.09 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 1.95061e+06 1.95084e+06 1.95201e+06 ... 2.02642e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.950613430000e+06, best bound 1.950613430000e+06, gap 0.0000%
+Warning: variable name "x_Ardent1_DC 6" has a space
+Warning: constraint name "Demand_DC 11" has a space
+Warning: to let Gurobi read it back, use rlp format
