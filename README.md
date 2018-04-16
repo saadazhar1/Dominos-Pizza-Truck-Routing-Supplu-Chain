@@ -1,1 +1,3 @@
-# Dominos-Pizza-Truck-Routing-Supplu-Chain
+# Dominos-Pizza-Truck-Routing-Supply-Chain
+
+This is a Dominos Pizza Supply Chain Optimization Problem. Concept of this problem is to find an optimized way of sending trucks from distribution centre to individual stores and the decision to send the volume of resources too. There are 16 distribution centers and 4080 stores spread across the regions within united sates. I created an optimization model which can optimize the decision of sending a truck with calculated supplies from distribution centers to stores. The data set used was Dominos Pizza datasets for extensive data wrangling (ETL) had to done.  For optimization, the GUROBI python package was used.
